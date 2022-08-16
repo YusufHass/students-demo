@@ -12,7 +12,7 @@ function App() {
     <div>
       {/* <StudentForm/> */}
       <Router>
-      <HeaderComponent/>
+      {/* <HeaderComponent/> */}
         <div className='container'>
           <Routes>
            <Route exact path='/' element={<StudentsList/>}> </Route>
@@ -21,7 +21,7 @@ function App() {
           </Routes>
         
         </div>
-      <FooterComponent/>
+      {/* <FooterComponent/> */}
       </Router>
     </div>
   );
