@@ -8,6 +8,7 @@ const StudentsList = () => {
   const [students, setStudents] = useState([]);
 const getAllStudents=()=>{
 
+
   StudentService.getAllStudents()
   .then((res) => {
     setStudents(res.data);

@@ -10,8 +10,8 @@ class EmployeeService {
     return axios.post(STUDENT_API_URI, students)
   }
   deleteStudent(studentID){
-    
-    // return axios.delete(`http://localhost:8080/books/${studentID}`)
+
+    // return axios.delete(`http://localhost:8080/student/${studentID}`)
 
     return axios.delete(STUDENT_API_URI+'/'+studentID)
   }
